@@ -1,21 +1,42 @@
-$color: rgb(83, 75, 155);
-$bg-image: url(../inc/bg.png);
+.bg-for-remove  {
+    margin-top: -10px!important;
+
+    img {
+        width: 1170px;
+        height: 4246px;
+        opacity: 0.5;
+        margin: 0 auto;
+        margin-bottom: -4246px;
+        z-index: -99999;
+        position: relative;
+    }
+}
+
 $container: 1170px;
 
-.bg-for-remove {
-    background-image: url(../inc/bg.png);
-    width: 1366px;
-    height: 4246px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    opacity: 0.5;
+%container-size {
+    width: $container;
     margin: 0 auto;
-    margin-bottom: -4246px;
-}
+  }
+
 body {
     margin: 0 auto;
 }
 .container {
-    width: $container;
-    margin: 0 auto;
+    @extend %container-size;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    
+    li {
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    
 }
