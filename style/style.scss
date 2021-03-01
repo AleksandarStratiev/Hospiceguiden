@@ -1,5 +1,6 @@
 $color: rgb(83, 75, 155);
 $bg-image: url(../inc/bg.png);
+$container: 1170px;
 
 .bg-for-remove {
     background-image: url(../inc/bg.png);
@@ -13,5 +14,8 @@ $bg-image: url(../inc/bg.png);
 }
 body {
     margin: 0 auto;
-
+}
+.container {
+    width: $container;
+    margin: 0 auto;
 }
