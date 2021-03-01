@@ -1,6 +1,13 @@
 $color: rgb(83, 75, 155);
-$bg-image: url();
+$bg-image: url(../inc/bg.png);
 
+.bg-for-remove {
+    background-image: $bg-image;
+    width: 1366px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
 body {
-    background: $color;
+
 }

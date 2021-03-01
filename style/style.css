@@ -1,4 +1,8 @@
-body {
-  background: #534b9b;
+.bg-for-remove {
+  background-image: url(../inc/bg.png);
+  width: 1366px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  opacity: 0.5;
 }
 /*# sourceMappingURL=style.css.map */
