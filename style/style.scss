@@ -2,12 +2,16 @@ $color: rgb(83, 75, 155);
 $bg-image: url(../inc/bg.png);
 
 .bg-for-remove {
-    background-image: $bg-image;
+    background-image: url(../inc/bg.png);
     width: 1366px;
+    height: 4246px;
     background-size: 100%;
     background-repeat: no-repeat;
     opacity: 0.5;
+    margin: 0 auto;
+    margin-bottom: -4246px;
 }
 body {
+    margin: 0 auto;
 
 }

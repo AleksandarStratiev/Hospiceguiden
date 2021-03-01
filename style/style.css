@@ -1,8 +1,15 @@
 .bg-for-remove {
   background-image: url(../inc/bg.png);
   width: 1366px;
+  height: 4246px;
   background-size: 100%;
   background-repeat: no-repeat;
   opacity: 0.5;
+  margin: 0 auto;
+  margin-bottom: -4246px;
+}
+
+body {
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
